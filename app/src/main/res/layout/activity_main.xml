@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_y="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="乐健账号(不是学号)" />
+
+            <EditText
+                android:id="@+id/editText_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="乐健账号（一般是手机号）"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="密码" />
+
+            <EditText
+                android:id="@+id/editText_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="乐健密码"
+                android:inputType="textPassword" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="175dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_freeRun"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:text="刷跑步" />
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:text="活动签到" />
+
+        <Button
+            android:id="@+id/button_course_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="10dp"
+            android:text="课程签到" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="258dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/save"
+            android:layout_width="314dp"
+            android:layout_height="67dp"
+            android:text="保存账号(保存后下次不用输入)"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="545dp"
+        android:text="爱\n丽\n速\n子"
+        android:textSize="24sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="230dp"
+        android:layout_height="681dp"
+        android:layout_x="-81dp"
+        android:layout_y="217dp"
+        android:foregroundGravity="bottom"
+        app:srcCompat="@drawable/oguri" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="228dp"
+        android:layout_height="519dp"
+        android:layout_x="227dp"
+        android:layout_y="293dp"
+        android:foregroundGravity="bottom"
+        app:srcCompat="@drawable/tama" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="46dp"
+        android:layout_y="440dp"
+        android:text="要学这个速速观看《赛马娘》"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_y="474dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/uma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:text="去看《赛马娘》" />
+
+        <Button
+            android:id="@+id/distribute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_weight="1"
+            android:text="关于软件" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="373dp"
+        android:layout_height="108dp"
+        android:layout_x="22dp"
+        android:layout_y="333dp"
+        android:text="本程序仅限学习使用，禁止用于其他任何用途。否则后果自负，且由此产生的法律责任，作者一概不负责！\n\nDdB改制，请勿外传给任何其他人" />
+
+
+</AbsoluteLayout>

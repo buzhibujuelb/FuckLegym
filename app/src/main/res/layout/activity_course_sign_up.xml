@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseSignUp">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="-2dp"
+        android:layout_y="-119dp"
+        app:srcCompat="@drawable/oguri2"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-153dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_x="2dp"
+        android:layout_y="202dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="178dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="课程名称："
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/courseName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="正在加载课程中......"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/can_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="正在加载中......" />
+
+        <Button
+            android:id="@+id/sign_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="一键签到" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="请在乐健里课程在签到时间段内进行签到，其他时候签到会出现错误。\n本功能签到可无视定位" />
+
+    </LinearLayout>
+
+
+
+</AbsoluteLayout>

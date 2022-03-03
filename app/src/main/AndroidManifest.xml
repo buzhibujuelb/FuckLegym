@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="central.stu.fucklegym">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FuckLegym">
+        <activity android:name=".WebViewStarter"></activity>
+        <activity android:name=".CourseSignUp" /> <!-- <receiver -->
+        <!-- android:name=".MySignupReceiver" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.TIME_TICK"/> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <service
+            android:name=".SignService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Distribute" />
+        <activity android:name=".UpdateMassage" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".FreeRun" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

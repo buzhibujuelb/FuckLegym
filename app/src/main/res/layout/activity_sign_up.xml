@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="5dp"
+        android:layout_y="295dp"
+        app:srcCompat="@drawable/goldship" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="9dp"
+        android:layout_y="21dp"
+        android:text="当前活动：" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView9"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_x="9dp"-->
+<!--        android:layout_y="288dp"-->
+<!--        android:text="完整输入待操作的活动的名称：" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editText_activityName"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_x="7dp"-->
+<!--        android:layout_y="312dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="输入名称或点击上面"-->
+<!--        android:inputType="textPersonName" />-->
+
+    <Button
+        android:id="@+id/button_uploadSign"
+        android:layout_width="179dp"
+        android:layout_height="79dp"
+        android:layout_x="100dp"
+        android:layout_y="312dp"
+        android:text="一键签到" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView_allActivities"-->
+<!--        android:layout_width="379dp"-->
+<!--        android:layout_height="204dp"-->
+<!--        android:layout_x="11dp"-->
+<!--        android:layout_y="46dp"-->
+<!--        android:text="加载中..." />-->
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="384dp"
+        android:layout_height="251dp"
+        android:layout_x="12dp"
+        android:layout_y="431dp"
+        android:text="已更新一键自动报名签到。选择相应活动进行签到。\n若需间隔一小时签到的，请一个小时后再次在此选择相同活动一键签到。" />
+
+    <LinearLayout
+        android:id="@+id/activities_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="47dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <Switch
+        android:id="@+id/switch_sign_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="396dp"
+        android:text="是否开启一小时后提醒二次签到" />
+
+
+
+</AbsoluteLayout>
