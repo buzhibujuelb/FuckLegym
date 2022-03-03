@@ -3,7 +3,7 @@
 支持自选跑步方式，可以自选跑步位置（目前支持了电子科大两校区和四川农业大学）
 支持自选活动一键报名并签到
 支持课程一键签到
-在[release](https://github.com/Foreverddb/FuckLegymApp/releases/)中下载需要的app版本即可
+在[release](https://github.com/Foreverddb/FuckLegym/releases/)中下载需要的app版本即可
 
 # 开源声明
 本仓库原fork自[RisingEntropy](https://github.com/RisingEntropy)老哥的FuckLegymApp仓库，后来老哥取消了public，加上我又有些更多需求，就加了一下功能，优化了一下排版来发布
